@@ -1,0 +1,56 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Large data files 
+*.h5
+*.h5ad
+*.h5ad.zip
+*.h5seurat
+*.mtx.gz
+*.tsv.gz
+*.tar.gz
+*.gz
+*.fna
+*.fasta
+*.fa
+
+# Spatial data folders 
+spatial/
+data/
+raw_data/
+reference/
+
+# Output directories 
+sox2_knockout_results/
+sox2_multiple_cells_analysis/
+*.npy
+*.npz
+
+# Generated files (GSEA, plots, etc.)
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.html
+*.pdf
+*.svg
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
