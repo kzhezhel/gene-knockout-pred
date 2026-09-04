@@ -1,5 +1,4 @@
-# gene-knockout-pred
-Predicts transcriptional consequences of gene knockout in spatial transcriptomics micro environment. Identifies target cells, simulates knockout, and analyzes downstream effects in neighboring cells.
+
 # Spatial Transcriptomics Knockout Predictor (SOX2)
 
 Predicts transcriptional consequences of **SOX2 knockout** in spatially resolved tissues using **Celcomen** and **Simcomen** models. The tool was developed for Visium data Human Lung Cancer (FFPE) but can be adapted to other data.
